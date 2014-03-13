@@ -10,6 +10,7 @@ class Libirecovery < Formula
   depends_on 'automake' => :build
   depends_on 'libtool' => :build
   depends_on 'pkg-config' => :build
+  depends_on 'libusb'
   
   def install
     system "./autogen.sh"
