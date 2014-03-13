@@ -14,7 +14,7 @@ class Libirecovery < Formula
   
   def install
     system "./autogen.sh"
-    system "make"
+    system "make", "install"
   end
   
 end
